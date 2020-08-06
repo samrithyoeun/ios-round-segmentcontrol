@@ -13,6 +13,8 @@
 		5590551F24DC4BDF00CB9FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5590551D24DC4BDF00CB9FEE /* Main.storyboard */; };
 		5590552124DC4BE300CB9FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5590552024DC4BE300CB9FEE /* Assets.xcassets */; };
 		5590552424DC4BE300CB9FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5590552224DC4BE300CB9FEE /* LaunchScreen.storyboard */; };
+		5590552C24DC4BF100CB9FEE /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590552B24DC4BF100CB9FEE /* CustomSegmentControl.swift */; };
+		5590552E24DC4C7800CB9FEE /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590552D24DC4C7800CB9FEE /* UIColorEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5590552024DC4BE300CB9FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5590552324DC4BE300CB9FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5590552524DC4BE300CB9FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5590552B24DC4BF100CB9FEE /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
+		5590552D24DC4C7800CB9FEE /* UIColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				5590551724DC4BDF00CB9FEE /* AppDelegate.swift */,
 				5590551924DC4BDF00CB9FEE /* SceneDelegate.swift */,
 				5590551B24DC4BDF00CB9FEE /* ViewController.swift */,
+				5590552B24DC4BF100CB9FEE /* CustomSegmentControl.swift */,
+				5590552D24DC4C7800CB9FEE /* UIColorEx.swift */,
 				5590551D24DC4BDF00CB9FEE /* Main.storyboard */,
 				5590552024DC4BE300CB9FEE /* Assets.xcassets */,
 				5590552224DC4BE300CB9FEE /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5590552C24DC4BF100CB9FEE /* CustomSegmentControl.swift in Sources */,
 				5590551C24DC4BDF00CB9FEE /* ViewController.swift in Sources */,
 				5590551824DC4BDF00CB9FEE /* AppDelegate.swift in Sources */,
+				5590552E24DC4C7800CB9FEE /* UIColorEx.swift in Sources */,
 				5590551A24DC4BDF00CB9FEE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
